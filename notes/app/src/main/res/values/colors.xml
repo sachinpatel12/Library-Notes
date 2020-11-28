@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#392DB8</color>
+    <color name="colorPrimaryDark">#2E21B3</color>
+    <color name="colorAccent">#000</color>
+    <color name="dark_blue">#3023AE</color>
+    <color name="purple">#c86dd7</color>
+    <color name="login_form_detail">#ccffffff</color>
+    <color name="login_form_detail_light">#1affffff</color>
+    <color name="login_form_detail_medium">#66ffffff</color>
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

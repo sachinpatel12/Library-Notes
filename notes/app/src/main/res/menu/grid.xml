@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/gv"
+        android:title="grid"
+        app:showAsAction="always"
+        android:icon="@drawable/grid50"></item>
+    <item
+        android:id="@+id/list"
+        android:title="list"
+        app:showAsAction="always"
+        android:icon="@drawable/list50"
+        android:visible="false"
+        ></item>
+    <item
+        android:id="@+id/search"
+        android:title="search"
+        app:showAsAction="always"
+        android:icon="@drawable/search50"
+        ></item>
+
+
+</menu>

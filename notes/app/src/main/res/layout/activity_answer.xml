@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnswerActivity">
+    <ListView
+        android:id="@+id/answerlist"
+        android:layout_above="@id/lay"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+   <LinearLayout
+       android:weightSum="5"
+       android:id="@+id/lay"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true">
+       <EditText
+           android:layout_weight="4"
+           android:background="#8B8BC34A"
+           android:id="@+id/editanswer"
+           android:layout_width="match_parent"
+           android:layout_height="70dp"
+           android:hint="Write an answer"/>
+       <Button
+           android:onClick="onclick"
+           android:id="@+id/postanswer"
+           android:layout_weight="1"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:background="@drawable/ic_arrow_forward_black_24dp"/>
+   </LinearLayout>
+
+</RelativeLayout>

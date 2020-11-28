@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#56342F4B"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewQuestion"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/quest"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:hint="Write a question....."
+        android:gravity="top"
+        android:layout_height="250dp"
+        />
+   <LinearLayout
+       android:layout_gravity="right"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <Button
+           android:onClick="onpress"
+           android:textColor="@color/colorPrimaryDark"
+           android:id="@+id/post"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Post"/>
+       <Button
+           android:onClick="onpress"
+           android:textColor="@color/colorPrimaryDark"
+           android:id="@+id/cancel"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Cancel"/>
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/devicenotfound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Device ID found:So"/>
+        <EditText
+            android:id="@+id/name"
+            android:textColorHint="#65F44336"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter your name here"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:id="@+id/pbar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ProgressBar>
+
+</LinearLayout>
